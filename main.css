@@ -1,20 +1,44 @@
 body{
-    font-family: helvetica;
-}
-ul{
-    font-family: monospace;
-}
-li{
-    list-style: circle;
+    background: dimgrey;
+    color: white;
+    font-family: Helvetica, serif;
+    margin: 0;
+    padding: 0;
 }
 
-.list {
-    list-style: square;
+header{
+    background: darkslategrey;
+    padding: 20px;
 }
 
-#date{
-    font-size: 12px;
-    font-style: italic;
-    font-weight: bold;
+.feature {
+    background: cadetblue;
+    color: grey;
+    padding: 20px;
+    display: flex; /*zadziała na dzieci komponentu czyli na div*/
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+.feature div{
+    /*display: block;*/ /*div ma to usawione automatycznie*/
+    background: beige;
+    /*margin: auto;*/
+    /*width: 100%; !*każdy div bedzie miał 100px, dzięki flexowi z section*!*/
+    /*margin: 1px;*/
+    /*height: 100%;*/
+    /*!*position: fixed;S*!*/
+
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 550px;
+
+
+}
+
+footer{
+    background: teal;
+    padding: 10px;
 }
