@@ -1,16 +1,1021 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dbf984f-0b24-4a36-a2d8-1ebd105608bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Smart-Mirror.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6dbf984f-0b24-4a36-a2d8-1ebd105608bb" name="Default Changelist" comment="Make webside more responsive, add section with date and time">
+      <change afterPath="$PROJECT_DIR$/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/icon-preview-nt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/icon-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/128x128/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/16x16/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/256x256/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/32x32/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/png/64x64/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/chanceflurries.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/chancerain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/chancesleet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/chancesnow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/chancetstorms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/clear.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/cloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/flurries.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/fog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/hazy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/mostlycloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/mostlysunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_chanceflurries.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_chancerain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_chancesleet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_chancesnow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_chancetstorms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_clear.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_cloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_flurries.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_fog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_hazy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_mostlycloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_mostlysunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_partlycloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_partlysunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_rain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_sleet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_snow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_sunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_tstorms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/nt_unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/partlycloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/partlysunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/rain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/sleet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/snow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/sunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/tstorms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/black/svg/unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/icon-preview-nt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/icon-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/128x128/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/16x16/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/256x256/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/32x32/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/png/64x64/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/chanceflurries.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/chancerain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/chancesleet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/chancesnow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/chancetstorms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/clear.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/cloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/flurries.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/fog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/hazy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/mostlycloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/mostlysunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_chanceflurries.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_chancerain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_chancesleet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_chancesnow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_chancetstorms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_clear.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_cloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_flurries.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_fog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_hazy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_mostlycloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_mostlysunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_partlycloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_partlysunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_rain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_sleet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_snow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_sunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_tstorms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/nt_unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/partlycloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/partlysunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/rain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/sleet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/snow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/sunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/tstorms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-black/svg/unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/icon-preview-nt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/icon-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/128x128/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/16x16/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/256x256/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/32x32/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/png/64x64/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/chanceflurries.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/chancerain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/chancesleet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/chancesnow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/chancetstorms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/clear.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/cloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/flurries.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/fog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/hazy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/mostlycloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/mostlysunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_chanceflurries.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_chancerain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_chancesleet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_chancesnow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_chancetstorms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_clear.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_cloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_flurries.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_fog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_hazy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_mostlycloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_mostlysunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_partlycloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_partlysunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_rain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_sleet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_snow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_sunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_tstorms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/nt_unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/partlycloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/partlysunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/rain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/sleet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/snow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/sunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/tstorms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/solid-white/svg/unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/icon-preview-nt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/icon-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/128x128/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/16x16/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/256x256/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/32x32/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/_nt_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/_spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_chanceflurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_chancerain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_chancesleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_chancesnow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_chancetstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_cloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_flurries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_fog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_hazy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_mostlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_mostlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/nt_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/partlycloudy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/partlysunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/sleet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/tstorms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/png/64x64/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/chanceflurries.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/chancerain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/chancesleet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/chancesnow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/chancetstorms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/clear.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/cloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/flurries.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/fog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/hazy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/mostlycloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/mostlysunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_chanceflurries.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_chancerain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_chancesleet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_chancesnow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_chancetstorms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_clear.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_cloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_flurries.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_fog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_hazy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_mostlycloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_mostlysunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_partlycloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_partlysunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_rain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_sleet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_snow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_sunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_tstorms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/nt_unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/partlycloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/partlysunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/rain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/sleet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/snow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/sunny.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/tstorms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/icons/white/svg/unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/wu-icons-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/wu-icons-style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +1039,7 @@
           <entry key="css" value="1" />
           <entry key="html" value="4" />
           <entry key="js" value="2" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -42,7 +1047,7 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="2" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -51,7 +1056,7 @@
           <entry key="html" value="861" />
           <entry key="js" value="259" />
           <entry key="md" value="376" />
-          <entry key="txt" value="56" />
+          <entry key="txt" value="119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -60,7 +1065,7 @@
           <entry key="HTML" value="861" />
           <entry key="JavaScript" value="259" />
           <entry key="Markdown" value="376" />
-          <entry key="PLAIN_TEXT" value="56" />
+          <entry key="PLAIN_TEXT" value="119" />
         </counts>
       </usages-collector>
     </session>
@@ -72,8 +1077,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+                <state relative-caret-position="171">
+                  <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -82,8 +1087,8 @@
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="171">
-                    <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+                  <first_editor relative-caret-position="3800">
+                    <caret line="200" selection-start-line="200" selection-end-line="200" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -116,7 +1121,7 @@
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="38">
-                  <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+                  <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -194,10 +1199,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="927" />
+    <option name="x" value="1920" />
+    <option name="y" value="-2" />
+    <option name="width" value="1853" />
     <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
@@ -224,7 +1234,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582579809238" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583428083950" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -260,7 +1271,7 @@
       <workItem from="1578845286296" duration="8379000" />
       <workItem from="1581701905204" duration="599000" />
       <workItem from="1582035182136" duration="17431000" />
-      <workItem from="1582580044076" duration="101000" />
+      <workItem from="1582580044076" duration="2450000" />
     </task>
     <task id="LOCAL-00001" summary="Create basic files.">
       <created>1578846139907</created>
@@ -283,17 +1294,24 @@
       <option name="project" value="LOCAL" />
       <updated>1578852520327</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Make webside more responsive, add section with date and time">
+      <created>1582580213068</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582580213068</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26510000" />
+    <option name="totallyTimeSpent" value="28859000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13724405" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13724405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -308,7 +1326,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.62702703" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.62702703" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -325,6 +1343,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -332,15 +1376,16 @@
     <MESSAGE value="Create basic files." />
     <MESSAGE value="Create simple html." />
     <MESSAGE value="Add basic style." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add basic style." />
+    <MESSAGE value="Make webside more responsive, add section with date and time" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make webside more responsive, add section with date and time" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/server.js" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <first_editor relative-caret-position="3800">
+            <caret line="200" selection-start-line="200" selection-end-line="200" />
           </first_editor>
           <second_editor />
         </state>
@@ -353,17 +1398,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="266">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/icons/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="171">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
