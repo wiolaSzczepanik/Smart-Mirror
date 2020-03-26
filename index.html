@@ -2,20 +2,37 @@
 <html lang='en'>
 <head>
     <meta charset='UTF-8'>
-    <title>Smart Mirror</title>
+    <meta http-equiv="refresh" content="120">  <!--refresh page each 120 seconds-->
     <link rel='stylesheet' href='main.css'>
+    <link rel="stylesheet" href="font/Rimouski.css">
 </head>
 <body>
 <header>Coś tutaj będzie ale jeszcze nie wiem co</header>
 <section class='feature'>
-    <div id='date' onload='startTime()'>
-        <!--<iframe scrolling='no' frameborder='no' clocktype='html5'-->
-                <!--style='overflow:hidden;border:0;margin:0;padding:0;width:180px;height:60px;'-->
-                <!--src='https://www.clocklink.com/html5embed.php?clock=043&timezone=CET&color=gray&size=180&Title=&Message=&Target=&From=2020,1,1,0,0,0&Color=gray'>-->
-        <!--</iframe>-->
+    <div id="clock" onload='startTime()'></div>
+    <div id="weather">
+        <div class="container">
+            <div class="app-title">
+                <p>Pogoda</p>
+            </div>
+            <div class="notification"></div>
+            <div class="weather-container">
+                <div class="weather-icon">
+                    <img src="icons/unknown.png" alt="">
+                </div>
+                <div class="temperature-value">
+                    <p>- °<span>C</span></p>
+                </div>
+                <div class="temperature-description">
+                    <p> - </p>
+                </div>
+                <div class="location">
+                    <p>-</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div>b</div>
-    <div>c</div>
+    <div id="air">c</div>
 </section>
 <section class='feature'>
     <div>d</div>
