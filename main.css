@@ -1,12 +1,12 @@
 /*body{*/
-    /*!*background: dimgrey;*!*/
-    /*color: white;*/
-    /*font-family: Helvetica, serif;*/
-    /*margin: 0;*/
-    /*padding: 0;*/
+/*!*background: dimgrey;*!*/
+/*color: white;*/
+/*font-family: Helvetica, serif;*/
+/*margin: 0;*/
+/*padding: 0;*/
 /*}*/
 
-header{
+header {
     background: darkslategrey;
     padding: 20px;
 }
@@ -20,7 +20,7 @@ header{
     flex-wrap: wrap;
 }
 
-.feature div{
+.feature div {
     /*display: block;*/ /*div ma to usawione automatycznie*/
     /*background: beige;*/
     /*margin: auto;*/
@@ -35,7 +35,8 @@ header{
     text-transform: uppercase;
     width: 550px;
 }
-#clock, #air{
+
+#clock, #air {
     padding: 15px;
     color: #293251;
     background-color: #FFF;
@@ -47,21 +48,20 @@ header{
     font-size: 1.2em;
 }
 
-footer{
+footer {
     background: teal;
     padding: 10px;
 }
 
-
-*{
+* {
     font-family: "Rimouski";
 }
 
-body{
+body {
     background-color: #293251;
 }
 
-.container{
+.container {
     width: 300px;
     background-color: #FFF;
 
@@ -69,16 +69,16 @@ body{
     /*margin: 0 auto;*/
 
     border-radius: 10px;
-    padding-bottom : 50px;
+    padding-bottom: 50px;
 }
 
-.app-title{
+.app-title {
     width: 300px;
     height: 30px;
     border-radius: 10px 10px 0 0;
 }
 
-.app-title p{
+.app-title p {
     border-top: 3px;
     text-align: center;
     padding: 5px;
@@ -87,15 +87,15 @@ body{
     color: #293251;
 }
 
-.notification{
+.notification {
     background-color: #f8d7da;
 }
 
+display: none
 
-    display: none;
+;
 
-
-.notification p{
+.notification p {
     color: #721c24;
     font-size: 1.2em;
     margin: 0;
@@ -103,36 +103,38 @@ body{
     padding: 10px 0;
 }
 
-.weather-container{
+.weather-container {
     width: 300px;
     height: 260px;
     background-color: #F4F9FF;
 }
 
-.weather-icon{
+.weather-icon {
     width: 300px;
     height: 128px;
 }
 
-.weather-icon img{
+.weather-icon img {
     display: block;
     margin: 0 auto;
 }
 
-.temperature-value{
-    width: 300px;
-    height:60px;
-}
-
-.temperature-value p{
-    padding: 0;
-    margin: 0;
-    color: #293251;
-    font-size: 4e.weather-container{
+weather-container {
     width: 300px;
     height: 260px;
     background-color: #F4F9FF;
-}m;
+}
+
+.temperature-value {
+    width: 300px;
+    height: 60px;
+}
+
+.temperature-value p {
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
     text-align: center;
     cursor: pointer;
 }
@@ -141,16 +143,16 @@ body{
 
 }
 
-.temperature-value span{
+.temperature-value span {
     color: #293251;
     font-size: 0.5em;
 }
 
-.temperature-description{
+.temperature-description {
 
 }
 
-.temperature-description p{
+.temperature-description p {
     padding: 8px;
     margin: 0;
     color: #293251;
@@ -158,11 +160,11 @@ body{
     font-size: 1.2em;
 }
 
-.location{
+.location {
 
 }
 
-.location p{
+.location p {
     margin: 0;
     padding: 0;
     color: #293251;
@@ -170,16 +172,17 @@ body{
     font-size: 0.8em;
 }
 
-.apartment-container{
+.apartment-container {
     width: 300px;
-    height: 280px;
+    height: 270px;
     background-color: red;
 }
 
-.percent{
+.percent {
     min-height: 200px;
 }
-.percent p{
+
+.percent p {
     padding-top: 45px;
     padding-bottom: 45px;
     margin: 0;
@@ -188,14 +191,23 @@ body{
     font-size: 7.2em;
 }
 
+.air-container {
 
-.air-container{
-    width: 300px;
-    background-color:;
+    padding-bottom: 50px;
+}
 
-    /*display: block;*/
-    /*margin: 0 auto;*/
-
-    border-radius: 10px;
-    padding-bottom : 50px;
+.air-measurements p {
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+.air-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
 }
