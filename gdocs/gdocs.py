@@ -2,8 +2,11 @@ from flask import Flask
 import requests
 import os
 import sys
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
+
 
 DEV = 'GDOCS_DOC' not in os.environ
 
@@ -14,6 +17,7 @@ if not DEV:
 def build_url(tab, doc, key):
 	return ('https://sheets.googleapis.com/v4/spreadsheets/' + doc + '/values/' 
 		+ tab  + '!A1:B10?key=' + key);
+
 
 @app.route("/finance")
 def finance():
