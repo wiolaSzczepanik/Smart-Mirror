@@ -73,7 +73,6 @@ function showError(error) {
 //get weather from api
 function getWeather(latitude, longitude) {
     let api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
-    console.log(api);
     fetch(api)
         .then(function (response) {
             let data = response.json();
@@ -109,17 +108,15 @@ function displayWeather() {
 // apikey : 15PTXuSyrYjJjRTs5mnPSqoF1Y52tm6l
 
 const airDescription = document.querySelector(".air-description");
-const airLevel = document.querySelector(".air-level");
 const airValue = document.querySelector(".air-value");
 const airPM2 = document.querySelector(".air-pm2");
 const airPm10 = document.querySelector(".air-pm10");
-const airColor = document.querySelector(".air-color")
+const airColor = document.querySelector(".air-color");
 
 const airData = {};
 
 function getAirMeasurements(latitude, longitude) {
     const airlyApi = `https://airapi.airly.eu/v2/measurements/point?lat=${latitude}&lng=${longitude}`;
-    console.log(airlyApi);
 
     fetch(airlyApi, {
         headers: {
@@ -128,7 +125,6 @@ function getAirMeasurements(latitude, longitude) {
         }
     }).then(function (response) {
         let data = response.json();
-        console.log("air: ", data);
         return data;
     }).then(function (data) {
         airData.description = data.current.indexes[0].advice;
@@ -143,8 +139,7 @@ function getAirMeasurements(latitude, longitude) {
 }
 
 function displayAirConditions(){
-    console.log(document.querySelector(".air-container").style.backgroundColor);
-
+    document.querySelector(".air-container").style.backgroundColor= airData.color;
     airValue.innerHTML= airData.value;
     airDescription.innerHTML=airData.description;
     airPM2.innerHTML=airData.pm2;
@@ -154,4 +149,42 @@ function displayAirConditions(){
 //lat=50.062006&lng=19.940984
 
 let air = getAirMeasurements(50.062006, 19.940984);
-document.getElementById("air-notification").innerHTML = air;
+// document.getElementById("air-notification").innerHTML = air;
+
+
+//FINANCE
+
+const percent = document.querySelector(".percent");
+
+const financeData={};
+
+function getFinanceData(){
+    const url ="http://localhost:5000/finance";
+
+    console.log("dada: ",url);
+    fetch(url, {
+        headers:{
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "Access-Control-Allow-Origin":"http://localhost:5000/finance",
+            "Access-Control-Allow-Credentials":"true",
+            "Access-Control-Allow-Methods": "GET, POST, OPTIONS"
+        }
+    }).then(function (responde) {
+        let data = responde.json();
+        console.log("finance: ",data);
+        return data;
+    }).then(function (data) {
+        financeData.homeOwnership=data.homeOwnership;
+        financeData.summaryDone=data.summaryDone;
+        financeData.transferMade=data.transferMade;
+
+        displayFinance();
+    })
+}
+
+function displayFinance(){
+    percent.innerHTML=financeData.homeOwnership;
+}
+
+getFinanceData();
