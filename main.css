@@ -91,10 +91,9 @@ body{
     background-color: #f8d7da;
 }
 
-}
 
     display: none;
-}
+
 
 .notification p{
     color: #721c24;
@@ -129,7 +128,11 @@ body{
     padding: 0;
     margin: 0;
     color: #293251;
-    font-size: 4em;
+    font-size: 4e.weather-container{
+    width: 300px;
+    height: 260px;
+    background-color: #F4F9FF;
+}m;
     text-align: center;
     cursor: pointer;
 }
@@ -165,4 +168,34 @@ body{
     color: #293251;
     text-align: center;
     font-size: 0.8em;
+}
+
+.apartment-container{
+    width: 300px;
+    height: 280px;
+    background-color: red;
+}
+
+.percent{
+    min-height: 200px;
+}
+.percent p{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin: 0;
+    color: lightgoldenrodyellow;
+    text-align: center;
+    font-size: 7.2em;
+}
+
+
+.air-container{
+    width: 300px;
+    background-color:;
+
+    /*display: block;*/
+    /*margin: 0 auto;*/
+
+    border-radius: 10px;
+    padding-bottom : 50px;
 }

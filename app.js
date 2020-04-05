@@ -69,11 +69,11 @@ function showError(error) {
     notificationElement.innerHTML = `<p> ${error.message} </p>`;
 }
 
-//
+
 //get weather from api
 function getWeather(latitude, longitude) {
     let api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
-    console.log(api)
+    console.log(api);
     fetch(api)
         .then(function (response) {
             let data = response.json();
@@ -94,7 +94,7 @@ function getWeather(latitude, longitude) {
 // DISPLAY WEATHER TO UI
 function displayWeather() {
     let city = "";
-    if ( weather.city === "Śródmieście") {
+    if (weather.city === "Śródmieście") {
         city = "Kraków"
     }
     iconElement.innerHTML = `<img src="icons/${weather.iconId}.png"/>`;
@@ -104,3 +104,54 @@ function displayWeather() {
 }
 
 
+//AIR
+
+// apikey : 15PTXuSyrYjJjRTs5mnPSqoF1Y52tm6l
+
+const airDescription = document.querySelector(".air-description");
+const airLevel = document.querySelector(".air-level");
+const airValue = document.querySelector(".air-value");
+const airPM2 = document.querySelector(".air-pm2");
+const airPm10 = document.querySelector(".air-pm10");
+const airColor = document.querySelector(".air-color")
+
+const airData = {};
+
+function getAirMeasurements(latitude, longitude) {
+    const airlyApi = `https://airapi.airly.eu/v2/measurements/point?lat=${latitude}&lng=${longitude}`;
+    console.log(airlyApi);
+
+    fetch(airlyApi, {
+        headers: {
+            "Accept": "application/json",
+            "apikey": "15PTXuSyrYjJjRTs5mnPSqoF1Y52tm6l"
+        }
+    }).then(function (response) {
+        let data = response.json();
+        console.log("air: ", data);
+        return data;
+    }).then(function (data) {
+        airData.description = data.current.indexes[0].advice;
+        airData.level = data.current.indexes[0].level;
+        airData.value = `${data.current.indexes[0].value}<span> CAQI</span>`;
+        airData.pm2 = `${data.current.values[1].value}<span> PM2.5</span>`;
+        airData.pm10 = `${data.current.values[2].value}<span> PM10</span>`;
+        airData.color = data.current.indexes[0].color;
+    }).then(function () {
+        displayAirConditions()
+    })
+}
+
+function displayAirConditions(){
+    console.log(document.querySelector(".air-container").style.backgroundColor);
+
+    airValue.innerHTML= airData.value;
+    airDescription.innerHTML=airData.description;
+    airPM2.innerHTML=airData.pm2;
+    airPm10.innerHTML=airData.pm10;
+}
+
+//lat=50.062006&lng=19.940984
+
+let air = getAirMeasurements(50.062006, 19.940984);
+document.getElementById("air-notification").innerHTML = air;
