@@ -5,8 +5,11 @@ import sys
 
 app = Flask(__name__)
 
-GDOCS_DOC = os.environ['GDOCS_DOC']
-GDOCS_KEY = os.environ['GDOCS_KEY'];
+DEV = 'GDOCS_DOC' not in os.environ
+
+if not DEV:
+	GDOCS_DOC = os.environ['GDOCS_DOC']
+	GDOCS_KEY = os.environ['GDOCS_KEY'];
 
 def build_url(tab, doc, key):
 	return ('https://sheets.googleapis.com/v4/spreadsheets/' + doc + '/values/' 
@@ -14,6 +17,9 @@ def build_url(tab, doc, key):
 
 @app.route("/finance")
 def finance():
+	if DEV:
+		return '{"homeOwnership":"0.999","summaryDone":"0","transferMade":"0"}'
+
 	response = requests.get(build_url('Finance', GDOCS_DOC, GDOCS_KEY))
 	data = response.json()['values'];
 
