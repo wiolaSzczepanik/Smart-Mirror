@@ -138,12 +138,12 @@ function getAirMeasurements(latitude, longitude) {
     })
 }
 
-function displayAirConditions(){
-    document.querySelector(".air-container").style.backgroundColor= airData.color;
-    airValue.innerHTML= airData.value;
-    airDescription.innerHTML=airData.description;
-    airPM2.innerHTML=airData.pm2;
-    airPm10.innerHTML=airData.pm10;
+function displayAirConditions() {
+    document.querySelector(".air-container").style.backgroundColor = airData.color;
+    airValue.innerHTML = airData.value;
+    airDescription.innerHTML = airData.description;
+    airPM2.innerHTML = airData.pm2;
+    airPm10.innerHTML = airData.pm10;
 }
 
 //lat=50.062006&lng=19.940984
@@ -156,33 +156,48 @@ let air = getAirMeasurements(50.062006, 19.940984);
 
 const percent = document.querySelector(".percent");
 
-const financeData={};
+const financeData = {};
 
-function getFinanceData(){
-    const url ="http://localhost:5000/finance";
+function getFinanceData() {
+    const url = "http://localhost:5000/finance";
 
-    console.log("dada: ",url);
+    console.log("dada: ", url);
     fetch(url, {
-        headers:{
+        headers: {
             "Content-Type": "application/json",
             "Accept": "application/json",
-            "Access-Control-Allow-Origin":"http://localhost:5000/finance",
+            "Access-Control-Allow-Origin": "http://localhost:5000/finance",
         }
     }).then(function (responde) {
         let data = responde.json();
-        console.log("finance: ",data);
+        console.log("finance: ", data);
         return data;
     }).then(function (data) {
-        financeData.homeOwnership=`${data.homeOwnership*100}<span>%</span>`;
-        financeData.summaryDone=data.summaryDone;
-        financeData.transferMade=data.transferMade;
-
+        financeData.homeOwnership = `${(data.homeOwnership * 100).toFixed(2)}<span>%</span>`;
+        financeData.summaryDone = data.summaryDone;
+        financeData.transferMade = data.transferMade;
+        changeBackgroundColor();
         displayFinance();
     })
 }
 
-function displayFinance(){
-    percent.innerHTML=financeData.homeOwnership;
+function displayFinance() {
+    percent.innerHTML = financeData.homeOwnership;
 }
+
+function changeBackgroundColor() {
+    console.log("hhhhh: ", financeData.summaryDone);
+    if (financeData.summaryDone === "0") {
+        document.querySelector(".apartment-container").style.backgroundColor = 'red';
+        return;
+    }
+    if (financeData.transferMade === "0") {
+        document.querySelector(".apartment-container").style.backgroundColor = 'orange';
+        return;
+    }
+    document.querySelector(".apartment-container").style.backgroundColor = 'green';
+
+}
+
 
 getFinanceData();
