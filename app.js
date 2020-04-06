@@ -186,7 +186,6 @@ function displayFinance() {
 }
 
 function changeBackgroundColor() {
-    console.log("hhhhh: ", financeData.summaryDone);
     if (financeData.summaryDone === "0") {
         document.querySelector(".apartment-container").style.backgroundColor = 'red';
         return;
