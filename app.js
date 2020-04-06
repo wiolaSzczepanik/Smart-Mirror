@@ -167,15 +167,13 @@ function getFinanceData(){
             "Content-Type": "application/json",
             "Accept": "application/json",
             "Access-Control-Allow-Origin":"http://localhost:5000/finance",
-            "Access-Control-Allow-Credentials":"true",
-            "Access-Control-Allow-Methods": "GET, POST, OPTIONS"
         }
     }).then(function (responde) {
         let data = responde.json();
         console.log("finance: ",data);
         return data;
     }).then(function (data) {
-        financeData.homeOwnership=data.homeOwnership;
+        financeData.homeOwnership=`${data.homeOwnership*100}<span>%</span>`;
         financeData.summaryDone=data.summaryDone;
         financeData.transferMade=data.transferMade;
 
