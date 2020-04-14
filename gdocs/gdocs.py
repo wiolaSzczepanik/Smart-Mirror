@@ -23,7 +23,7 @@ def build_url(tab, cell_range, doc, key):
 @app.route("/finance")
 def finance():
 	if DEV:
-		return '{"homeOwnership":"0.999","summaryDone":"0","transferMade":"0"}'
+		return '{"homeOwnership":"0.3863","summaryDone":"1","transferMade":"1"}'
 
 	response = requests.get(build_url('Finance', 'A1:B10', GDOCS_DOC, GDOCS_KEY))
 	data = response.json()['values'];
