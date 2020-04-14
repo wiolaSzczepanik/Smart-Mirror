@@ -45,7 +45,8 @@ header {
     padding-left: 0px;
     padding-right: 0px;
     border-radius: 10px;
-    font-size: 4.2em;
+    font-size: 5.2em;
+    font-family: RobotoMono, sans-serif;
 }
 
 #air {
@@ -60,14 +61,26 @@ header {
     font-size: 1.2em;
 }
 
+#date{
+    padding: 15px;
+    color: #293251;
+    background-color: #FFF;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 10px;
+    font-size: 2.2em;
+}
+
 footer {
     background: teal;
     padding: 10px;
 }
 
 * {
-    font-family: "Kanit", sans-serif ;
-    font-weight: bold;
+    font-family: 'Kanit', sans-serif ;
+    /*font-weight: bold;*/
 }
 
 body {

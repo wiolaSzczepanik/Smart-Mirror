@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Kanit';
-    src: url('Kanit-Bold.ttf') format('truetype'),
-         url('Kanit-ExtraBold.ttf') format('truetype');
+    src: url('Kanit-Regular.ttf') format('truetype'),
+         url('Kanit-Black.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 

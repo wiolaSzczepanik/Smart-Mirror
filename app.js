@@ -2,8 +2,8 @@
 
 /*CLOCK */
 
-let date = startTime();
-document.getElementById("clock").innerHTML = date;
+let time = startTime();
+document.getElementById("clock").innerHTML = time;
 
 function startTime() {
     let today = new Date();
@@ -12,7 +12,7 @@ function startTime() {
     let s = today.getSeconds();
     m = checkTime(m);
     s = checkTime(s);
-    document.getElementById('clock').innerHTML = today.toDateString() + " " + h + ":" + m + ":" + s;
+    document.getElementById('clock').innerHTML =  " " + h + ":" + m + ":" + s;
     let t = setTimeout(startTime, 500);
 }
 
@@ -23,6 +23,11 @@ function checkTime(i) {
     ;  // add zero in front of numbers < 10
     return i;
 }
+//DATE
+let todayDate = new Date();
+let date = todayDate.toDateString();
+document.getElementById('date').innerText = date;
+
 
 /*WEATHER */
 
