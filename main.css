@@ -6,14 +6,14 @@
 /*padding: 0;*/
 /*}*/
 
-header {
-    background: darkslategrey;
-    padding: 20px;
-}
+/*header {*/
+    /*background: darkslategrey;*/
+    /*padding: 20px;*/
+/*}*/
 
 .feature {
-    background: cadetblue;
-    color: grey;
+    background: #3d3d3d;
+    /*color: grey;*/
     padding: 20px;
     display: flex; /*zadziała na dzieci komponentu czyli na div*/
     flex-direction: row;
@@ -38,8 +38,8 @@ header {
 
 #clock{
     padding: 15px;
-    color: #293251;
-    background-color: #FFF;
+    color: #FFFFFF;
+    /*background-color: #FFF;*/
     margin-bottom: 5px;
     margin-top: 5px;
     padding-left: 0px;
@@ -51,8 +51,8 @@ header {
 
 #air {
     padding: 15px;
-    color: #293251;
-    background-color: #FFF;
+    color: #FFFFFF;
+    /*background-color: #FFF;*/
     margin-bottom: 5px;
     margin-top: 5px;
     padding-left: 0px;
@@ -63,8 +63,8 @@ header {
 
 #date{
     padding: 15px;
-    color: #293251;
-    background-color: #FFF;
+    color: #FFFFFF;
+    /*background-color: #FFF;*/
     margin-bottom: 5px;
     margin-top: 5px;
     padding-left: 0px;
@@ -73,10 +73,10 @@ header {
     font-size: 2.2em;
 }
 
-footer {
-    background: teal;
-    padding: 10px;
-}
+/*footer {*/
+    /*background: teal;*/
+    /*padding: 10px;*/
+/*}*/
 
 * {
     font-family: 'Kanit', sans-serif ;
@@ -84,13 +84,12 @@ footer {
 }
 
 body {
-    background-color: #293251;
+    background-color: #3d3d3d;
 }
 
 .container {
     width: 300px;
-    background-color: #FFF;
-
+    /*background-color: #FFF;*/
     /*display: block;*/
     /*margin: 0 auto;*/
 
@@ -98,20 +97,20 @@ body {
     padding-bottom: 50px;
 }
 
-.app-title {
-    width: 300px;
-    height: 30px;
-    border-radius: 10px 10px 0 0;
-}
+/*.app-title {*/
+    /*width: 300px;*/
+    /*height: 30px;*/
+    /*border-radius: 10px 10px 0 0;*/
+/*}*/
 
-.app-title p {
-    border-top: 3px;
-    text-align: center;
-    padding: 5px;
-    margin: 0 auto;
-    font-size: 1.2em;
-    color: #293251;
-}
+/*.app-title p {*/
+    /*border-top: 3px;*/
+    /*text-align: center;*/
+    /*padding: 5px;*/
+    /*margin: 0 auto;*/
+    /*font-size: 1.2em;*/
+    /*color: #293251;*/
+/*}*/
 
 .notification {
     background-color: #f8d7da;
@@ -132,12 +131,13 @@ display: none
 .weather-container {
     width: 300px;
     height: 260px;
-    background-color: #F4F9FF;
+    /*background-color: #F4F9FF;*/
 }
 
 .weather-icon {
     width: 300px;
     height: 128px;
+    filter: brightness(0) invert(1);
 }
 
 .weather-icon img {
@@ -148,7 +148,7 @@ display: none
 weather-container {
     width: 300px;
     height: 260px;
-    background-color: #F4F9FF;
+    /*background-color: #F4F9FF;*/
 }
 
 .temperature-value {
@@ -159,8 +159,8 @@ weather-container {
 .temperature-value p {
     padding: 0;
     margin: 0;
-    color: #293251;
-    font-size: 4em;
+    color: #FFFFFF;
+    font-size: 4.2em;
     text-align: center;
     cursor: pointer;
 }
@@ -170,21 +170,21 @@ weather-container {
 }
 
 .temperature-value span {
-    color: #293251;
+    color: #FFFFFF;
     font-size: 0.5em;
 }
 
-.temperature-description {
+/*.temperature-description {*/
 
-}
+/*}*/
 
-.temperature-description p {
-    padding: 8px;
-    margin: 0;
-    color: #293251;
-    text-align: center;
-    font-size: 1.2em;
-}
+/*.temperature-description p {*/
+    /*padding: 8px;*/
+    /*margin: 0;*/
+    /*color: #FFFFFF;*/
+    /*text-align: center;*/
+    /*font-size: 2.2em;*/
+/*}*/
 
 .location {
 
@@ -193,9 +193,9 @@ weather-container {
 .location p {
     margin: 0;
     padding: 0;
-    color: #293251;
+    color: #FFFFFF;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1.2em;
 }
 
 .apartment-container {
@@ -209,7 +209,7 @@ weather-container {
     padding-top: 45px;
     padding-bottom: 45px;
     margin: 0;
-    color: lightgoldenrodyellow;
+    color: #FFFFFF;
     text-align: center;
     font-size: 7.2em;
 }
@@ -231,23 +231,22 @@ weather-container {
 .air-measurements p {
     padding: 0;
     margin: 0;
-    color: #293251;
+    color: #FFFFFF;
     font-size: 4em;
     text-align: center;
     cursor: pointer;
 }
-.air-description p{
-    padding: 8px;
-    margin: 0;
-    color: #293251;
-    text-align: center;
-    font-size: 1.2em;
-}
+/*.air-description p{*/
+    /*padding: 8px;*/
+    /*margin: 0;*/
+    /*color: #293251;*/
+    /*text-align: center;*/
+    /*font-size: 1.2em;*/
+/*}*/
 
 .air-app-title p {
     margin-top: 0px;
     padding-bottom: 0px;
-
     border-top: 3px;
     text-align: center;
     padding: 5px;

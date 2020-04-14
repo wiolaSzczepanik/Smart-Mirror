@@ -36,7 +36,7 @@ document.getElementById('date').innerText = date;
 // SELECT ELEMENTS
 const iconElement = document.querySelector(".weather-icon");
 const tempElement = document.querySelector(".temperature-value p");
-const descElement = document.querySelector(".temperature-description p");
+// const descElement = document.querySelector(".temperature-description p");
 const locationElement = document.querySelector(".location p");
 const notificationElement = document.querySelector(".notification");
 
@@ -85,7 +85,7 @@ function getWeather(latitude, longitude) {
         })
         .then(function (data) {
             weather.temperature.value = Math.floor(data.main.temp - KELVIN);
-            weather.description = data.weather[0].description;
+            // weather.description = data.weather[0].description;
             weather.iconId = data.weather[0].icon;
             weather.city = data.name;
             weather.country = data.sys.country;
@@ -103,7 +103,7 @@ function displayWeather() {
     }
     iconElement.innerHTML = `<img src="icons/${weather.iconId}.png"/>`;
     tempElement.innerHTML = `${weather.temperature.value}°<span>C</span>`;
-    descElement.innerHTML = weather.description;
+    // descElement.innerHTML = weather.description;
     locationElement.innerHTML = `${city}, ${weather.country}`;
 }
 
@@ -114,9 +114,8 @@ function displayWeather() {
 
 const airDescription = document.querySelector(".air-description");
 const airValue = document.querySelector(".air-value");
-const airPM2 = document.querySelector(".air-pm2");
-const airPm10 = document.querySelector(".air-pm10");
-const airColor = document.querySelector(".air-color");
+// const airPM2 = document.querySelector(".air-pm2");
+// const airPm10 = document.querySelector(".air-pm10");
 
 const airData = {};
 
@@ -135,8 +134,8 @@ function getAirMeasurements(latitude, longitude) {
         airData.description = data.current.indexes[0].advice;
         airData.level = data.current.indexes[0].level;
         airData.value = `${data.current.indexes[0].value}<span> CAQI</span>`;
-        airData.pm2 = `${data.current.values[1].value}<span> PM2.5</span>`;
-        airData.pm10 = `${data.current.values[2].value}<span> PM10</span>`;
+        // airData.pm2 = `${data.current.values[1].value}<span> PM2.5</span>-->`;
+        // airData.pm10 = `${data.current.values[2].value}<span> PM10</span>-->`;
         airData.color = data.current.indexes[0].color;
     }).then(function () {
         displayAirConditions()
