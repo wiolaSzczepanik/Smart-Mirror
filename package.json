@@ -7,7 +7,7 @@
     "Peter Schmalfeldt"
   ],
   "license": "(MIT OR GPL-3.0)",
-  "description": "Weather Underground Icons",
+  "advice": "Weather Underground Icons",
   "main": "dist/wu-icons-style.css",
   "keywords": [
     "weather underground",

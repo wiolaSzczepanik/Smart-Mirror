@@ -36,7 +36,7 @@ document.getElementById('date').innerText = date;
 // SELECT ELEMENTS
 const iconElement = document.querySelector(".weather-icon");
 const tempElement = document.querySelector(".temperature-value p");
-// const descElement = document.querySelector(".temperature-description p");
+// const descElement = document.querySelector(".temperature-advice p");
 const locationElement = document.querySelector(".location p");
 const notificationElement = document.querySelector(".notification");
 
@@ -85,7 +85,7 @@ function getWeather(latitude, longitude) {
         })
         .then(function (data) {
             weather.temperature.value = Math.floor(data.main.temp - KELVIN);
-            // weather.description = data.weather[0].description;
+            // weather.advice = data.weather[0].advice;
             weather.iconId = data.weather[0].icon;
             weather.city = data.name;
             weather.country = data.sys.country;
@@ -103,7 +103,7 @@ function displayWeather() {
     }
     iconElement.innerHTML = `<img src="icons/${weather.iconId}.png"/>`;
     tempElement.innerHTML = `${weather.temperature.value}°<span>C</span>`;
-    // descElement.innerHTML = weather.description;
+    // descElement.innerHTML = weather.advice;
     locationElement.innerHTML = `${city}, ${weather.country}`;
 }
 
@@ -112,8 +112,10 @@ function displayWeather() {
 
 // apikey : 15PTXuSyrYjJjRTs5mnPSqoF1Y52tm6l
 
-const airDescription = document.querySelector(".air-description");
+const airAdvice = document.querySelector(".air-advice");
 const airValue = document.querySelector(".air-value");
+const airLevel = document.querySelector(".air-level");
+// const airDescription = document.querySelector("air-description");
 // const airPM2 = document.querySelector(".air-pm2");
 // const airPm10 = document.querySelector(".air-pm10");
 
@@ -131,29 +133,30 @@ function getAirMeasurements(latitude, longitude) {
         let data = response.json();
         return data;
     }).then(function (data) {
-        airData.description = data.current.indexes[0].advice;
+        airData.advice = data.current.indexes[0].advice;
         airData.level = data.current.indexes[0].level;
-        airData.value = `${data.current.indexes[0].value}<span> CAQI</span>`;
-        // airData.pm2 = `${data.current.values[1].value}<span> PM2.5</span>-->`;
-        // airData.pm10 = `${data.current.values[2].value}<span> PM10</span>-->`;
-        airData.color = data.current.indexes[0].color;
+        airData.value = data.current.indexes[0].value;
+        // airData.color = data.current.indexes[0].color;
+        // airData.description = data.current.indexes[0].description;
     }).then(function () {
         displayAirConditions()
     })
 }
 
 function displayAirConditions() {
-    document.querySelector(".air-container").style.backgroundColor = airData.color;
-    airValue.innerHTML = airData.value;
-    airDescription.innerHTML = airData.description;
-    airPM2.innerHTML = airData.pm2;
-    airPm10.innerHTML = airData.pm10;
+    console.log("level: " + airData.level);
+
+    // document.querySelector(".air-container").style.backgroundColor = airData.color;
+    airValue.innerHTML = `${airData.value}<span style="font-size: 0.5em">CAQI</span>`;
+    airAdvice.innerHTML = airData.advice;
+    airLevel.innerHTML = `<img src="icons/${airData.level}.png"/>`;
+    // airDescription.innerHTML = airData.description;
+
 }
 
 //lat=50.062006&lng=19.940984
 
 let air = getAirMeasurements(50.062006, 19.940984);
-// document.getElementById("air-notification").innerHTML = air;
 
 
 //FINANCE

@@ -1,19 +1,5 @@
-/*body{*/
-/*!*background: dimgrey;*!*/
-/*color: white;*/
-/*font-family: Helvetica, serif;*/
-/*margin: 0;*/
-/*padding: 0;*/
-/*}*/
-
-/*header {*/
-    /*background: darkslategrey;*/
-    /*padding: 20px;*/
-/*}*/
-
 .feature {
     background: #3d3d3d;
-    /*color: grey;*/
     padding: 20px;
     display: flex; /*zadziała na dzieci komponentu czyli na div*/
     flex-direction: row;
@@ -21,25 +7,16 @@
 }
 
 .feature div {
-    /*display: block;*/ /*div ma to usawione automatycznie*/
-    /*background: beige;*/
-    /*margin: auto;*/
-    /*width: 100%; !*każdy div bedzie miał 100px, dzięki flexowi z section*!*/
-    /*margin: 1px;*/
     height: 100%;
-    /*/*position: fixed;S*/
-
-    margin: auto;
-    /*padding: 5px;*/
+    margin: auto;    /*padding: 5px;*/
     text-align: center;
     text-transform: uppercase;
     width: 550px;
 }
 
-#clock{
+#clock {
     padding: 15px;
     color: #FFFFFF;
-    /*background-color: #FFF;*/
     margin-bottom: 5px;
     margin-top: 5px;
     padding-left: 0px;
@@ -49,10 +26,9 @@
     font-family: RobotoMono, sans-serif;
 }
 
-#air {
+#air, #weather{
     padding: 15px;
     color: #FFFFFF;
-    /*background-color: #FFF;*/
     margin-bottom: 5px;
     margin-top: 5px;
     padding-left: 0px;
@@ -61,10 +37,9 @@
     font-size: 1.2em;
 }
 
-#date{
+#date {
     padding: 15px;
     color: #FFFFFF;
-    /*background-color: #FFF;*/
     margin-bottom: 5px;
     margin-top: 5px;
     padding-left: 0px;
@@ -73,14 +48,8 @@
     font-size: 2.2em;
 }
 
-/*footer {*/
-    /*background: teal;*/
-    /*padding: 10px;*/
-/*}*/
-
 * {
-    font-family: 'Kanit', sans-serif ;
-    /*font-weight: bold;*/
+    font-family: 'Kanit', sans-serif;
 }
 
 body {
@@ -89,36 +58,13 @@ body {
 
 .container {
     width: 300px;
-    /*background-color: #FFF;*/
-    /*display: block;*/
-    /*margin: 0 auto;*/
-
-    border-radius: 10px;
     padding-bottom: 50px;
 }
 
-/*.app-title {*/
-    /*width: 300px;*/
-    /*height: 30px;*/
-    /*border-radius: 10px 10px 0 0;*/
-/*}*/
-
-/*.app-title p {*/
-    /*border-top: 3px;*/
-    /*text-align: center;*/
-    /*padding: 5px;*/
-    /*margin: 0 auto;*/
-    /*font-size: 1.2em;*/
-    /*color: #293251;*/
-/*}*/
-
 .notification {
-    background-color: #f8d7da;
+    color: #FFFFFF;
+    font-size: 1.2em;
 }
-
-display: none
-
-;
 
 .notification p {
     color: #721c24;
@@ -131,12 +77,11 @@ display: none
 .weather-container {
     width: 300px;
     height: 260px;
-    /*background-color: #F4F9FF;*/
 }
 
 .weather-icon {
     width: 300px;
-    height: 128px;
+    height: 150px;
     filter: brightness(0) invert(1);
 }
 
@@ -148,7 +93,6 @@ display: none
 weather-container {
     width: 300px;
     height: 260px;
-    /*background-color: #F4F9FF;*/
 }
 
 .temperature-value {
@@ -165,7 +109,7 @@ weather-container {
     cursor: pointer;
 }
 
-.temperature-value p:hover{
+.temperature-value p:hover {
 
 }
 
@@ -173,18 +117,6 @@ weather-container {
     color: #FFFFFF;
     font-size: 0.5em;
 }
-
-/*.temperature-description {*/
-
-/*}*/
-
-/*.temperature-description p {*/
-    /*padding: 8px;*/
-    /*margin: 0;*/
-    /*color: #FFFFFF;*/
-    /*text-align: center;*/
-    /*font-size: 2.2em;*/
-/*}*/
 
 .location {
 
@@ -200,12 +132,11 @@ weather-container {
 
 .apartment-container {
     width: 300px;
-    height: 270px;
-    background-color: red;
+    height: 200px;
+    /*background-color: red;*/
 }
 
 .percent {
-    /*min-height: 200px;*/
     padding-top: 45px;
     padding-bottom: 45px;
     margin: 0;
@@ -213,15 +144,6 @@ weather-container {
     text-align: center;
     font-size: 7.2em;
 }
-
-/*.percent p {*/
-    /*padding-top: 45px;*/
-    /*padding-bottom: 45px;*/
-    /*margin: 0;*/
-    /*color: lightgoldenrodyellow;*/
-    /*text-align: center;*/
-    /*font-size: 7.2em;*/
-/*}*/
 
 .air-container {
 
@@ -236,13 +158,14 @@ weather-container {
     text-align: center;
     cursor: pointer;
 }
-/*.air-description p{*/
-    /*padding: 8px;*/
-    /*margin: 0;*/
-    /*color: #293251;*/
-    /*text-align: center;*/
-    /*font-size: 1.2em;*/
-/*}*/
+
+.air-description {
+    padding: 8px;
+    margin: 0;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2.2em;
+}
 
 .air-app-title p {
     margin-top: 0px;
@@ -253,4 +176,20 @@ weather-container {
     margin: 0 auto;
     font-size: 1.2em;
     color: #green;
+}
+
+.air-value {
+    font-size: 4.2em;
+}
+
+.air-level {
+    width: 300px;
+    height: 128px;
+    filter: brightness(0) invert(1);
+}
+
+.air-level img {
+    display: block;
+    margin: 10px auto;
+    width: 150px;
 }
