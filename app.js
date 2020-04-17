@@ -205,5 +205,32 @@ function changeBackgroundColor() {
 
 }
 
-
 getFinanceData();
+
+//COUNT DAYS TO MOVE OUT
+
+const days = document.querySelector(".home-container");
+
+function countDays(){
+    let today = new Date();
+    let dd = today.getDate();
+    let mm = today.getMonth()+1; //January is 0!
+    let yyyy = today.getFullYear();
+    if(dd<10) {
+        dd='0'+dd
+    }
+    if(mm<10) {
+        mm='0'+mm
+    }
+    let newToday = yyyy+'/'+mm+'/'+dd;
+
+    let date2 = new Date(newToday);
+    let date1 = new Date('2020/12/24');
+    let timeDiff = Math.abs(date2.getTime() - date1.getTime());
+    return Math.ceil(timeDiff / (1000 * 3600 * 24));
+
+}
+
+
+
+    days.innerHTML = `${countDays()}<span style="font-size: 0.3em"> dni do nowego domu</span>`;

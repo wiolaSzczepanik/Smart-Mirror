@@ -193,3 +193,11 @@ weather-container {
     margin: 10px auto;
     width: 150px;
 }
+
+.home-container{
+    color: #FFFFFF;
+    font-size: 7.2em;
+}
+.home-container span{
+    display: block;
+}
